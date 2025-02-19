@@ -365,3 +365,43 @@ margin-bottom: 7px;
     border-radius: 10px;
     font-size: 20px;
 }
+/* ------------------------------------------------------------ */
+footer{
+    width: 100%;
+    background-color:var(--secundario);
+}
+
+.footer__contenedor{
+    width: 80%;
+    margin: 0 auto;
+    padding-top:45px;
+    padding-bottom: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    
+}
+
+.footer__nosotros--titulo{
+    font-size: 35px;
+    color: var(--grisClaro);
+    margin-bottom: 20px;
+}
+.footer__nosotros--parrafo, .footer__nosotros--parrafo1{
+    font-size: 20px;
+    padding-right: 100px;
+    color: var(--grisClaro);
+    line-height: 35px;
+}
+
+.copyright{
+    width: 100%;
+    background-color: var(--primario);
+}
+
+.copyright--text{
+    text-align: center;
+    padding: 20px 0;
+    color: var(--blanco);
+    font-size: 20px;
+}
